@@ -1,0 +1,40 @@
+{
+    "author": "Jon Dolan",
+    "dependencies": {},
+    "keywords": [
+        "pebble-app"
+    ],
+    "name": "astrofinder",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable"
+        ],
+        "displayName": "AstroFinder",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/compass_background.png",
+                    "name": "COMPASS_BACKGROUND",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "2ff7fa04-6011-4a98-8a3b-a826a4b899f8",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
